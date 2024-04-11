@@ -2,7 +2,7 @@
 
 /* this exercise has 0 distractors */
 
-function addArrays(array1, array2) {
+export function addArrays(array1, array2) {
     if (array1.length !== array2.length) {
         throw new Error('Array lengths not same size');
     }
