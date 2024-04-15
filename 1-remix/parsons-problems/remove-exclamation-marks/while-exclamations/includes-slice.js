@@ -11,5 +11,5 @@ function removeExclamationMarks(s) {
     return s;
 }
 
-s.slice(0, index).concat(s.slice(index + 1, s.length)); // distractor
-let s = s.slice(0, index).concat(s.slice(index + 1, s.length)); // distractor
+// s.slice(0, index).concat(s.slice(index + 1, s.length)); // distractor
+// let s = s.slice(0, index).concat(s.slice(index + 1, s.length)); // distractor

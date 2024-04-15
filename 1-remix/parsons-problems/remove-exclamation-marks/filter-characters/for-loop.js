@@ -12,6 +12,6 @@ function removeExclamationMarks(s) {
   return newString;
 }
 
-newString = s[i]; // distractor
-return s; // distractor
-if (s[i] == '!') { // distractor
+// newString = s[i]; // distractor
+// return s; // distractor
+// if (s[i] == '!') ; // distractor

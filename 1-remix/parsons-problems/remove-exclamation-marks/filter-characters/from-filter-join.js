@@ -10,4 +10,4 @@ function removeExclamationMarks(s) {
 }
 
 element !== '!'; // distractor
-const result = s.filter((element) => { // distractor
+const result = s.filter((element) => {}) // distractor

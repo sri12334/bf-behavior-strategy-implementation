@@ -9,6 +9,6 @@ let removeExclamationMarks = (s) =>
     .join('');
 
 
-.split(''); // distractor
-.filter((e) => e != '!'); // distractor
-.join('') // distractor
+// .split(''); // distractor
+// .filter((e) => e != '!'); // distractor
+// .join('') // distractor
