@@ -6,6 +6,6 @@ function removeExclamationMarks(s) {
   return s.replace(/!/gi, '');
 }
 
-var function removeExclamationMarks(s) { // distractor
-s.replace(/!/gi, ''); // distractor
-function removeExclamationMarks(s) => { // distractor
+function removeExclamationMarks(s) { // distractor
+return s.replace(/!/gi, ''); // distractor
+function removeExclamationMarks(s) { // distractor

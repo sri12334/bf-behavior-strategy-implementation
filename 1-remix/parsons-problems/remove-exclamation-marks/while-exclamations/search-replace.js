@@ -9,6 +9,6 @@ function removeExclamationMarks(s) {
   return s;
 }
 
-s = s.replace('', '!'); // distractor
-while (s.search('!') > 0) { // distractor
-while (s.search('!') !== 0) { // distractor
+// s = s.replace('', '!'); // distractor
+// while (s.search('!') > 0) { // distractor
+// while (s.search('!') !== 0) { // distractor

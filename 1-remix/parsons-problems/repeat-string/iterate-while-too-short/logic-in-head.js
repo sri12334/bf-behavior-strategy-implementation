@@ -23,6 +23,6 @@ const repeatString = (text = '', repetitions = 1) => {
   return repeatedText;
 };
 
-while (repeatedText.length <= finalLength) { // distractor
-repeatedText + text; // distractor
-const repeatedText = ''; // distractor
+// while (repeatedText.length <= finalLength) { // distractor
+// repeatedText + text; // distractor
+// const repeatedText = ''; // distractor

@@ -4,6 +4,6 @@
 
 let removeExclamationMarks = (s) => s.replace(/!/g, '');
 
-let removeExclamationMarks = function(s) { s.replace(/!/g, ''); } // distractor
-let removeExclamationMarks = (s) => { s.replace(/!/g, ''); } // distractor
-let removeExclamationMarks => (s) = s.replace(/!/g, ''); // distractor
+let removeExclamationMarks = function(s) { return s.replace(/!/g, ''); } // distractor
+let removeExclamationMarks = (s) => { return s.replace(/!/g, ''); } // distractor
+let removeExclamationMarks = (s) => s.replace(/!/g, ''); // distractor

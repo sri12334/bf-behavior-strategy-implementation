@@ -23,5 +23,5 @@ const repeatString = (text = '', repetitions = 1, repeated = '') =>
     ? repeated
     : repeatString(text, repetitions - 1, repeated + text);
 
-? '' // distractor
-: repeatString(text, repetitions - 1); // distractor
+// ? '' // distractor
+// : repeatString(text, repetitions - 1); // distractor

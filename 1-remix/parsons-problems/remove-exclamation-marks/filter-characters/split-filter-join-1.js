@@ -11,6 +11,6 @@ function removeExclamationMarks(s) {
 }
 
 
-arr.filter(function (e) { // distractor
+arr.filter(function (e) { })/ distractor
 var arr = s.join(''); // distractor
 return arr.split(''); // distractor

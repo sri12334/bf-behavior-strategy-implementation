@@ -15,6 +15,6 @@ const repeatString = (text = '', repetitions = 1) => {
     return repeatedString;
 };
 
-return Array(repetitions).fill(text); // distractor
-const repeatedString = Array(repetitions).fill(text); // distractor
-const oneEntryPerRepetition = repeatedString.join(''); // distractor
+// return Array(repetitions).fill(text); // distractor
+// const repeatedString = Array(repetitions).fill(text); // distractor
+// const oneEntryPerRepetition = repeatedString.join(''); // distractor

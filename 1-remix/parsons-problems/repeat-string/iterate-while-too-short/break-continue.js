@@ -26,7 +26,8 @@ const repeatString = (text = '', repetitions = 1) => {
   return repeatedText;
 };
 
-continue; // distractor
-if (repeatedText.length = finalLength) { // distractor
-while (false) { // distractor
-} // distractor
+
+// continue; // distractor
+// if (repeatedText.length = finalLength) { // distractor
+// while (false) { // distractor
+// } // distractor
