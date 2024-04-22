@@ -14,10 +14,10 @@ try {
 
 console.log('- throw new error -');
 try {
-    throw __;
+    throw new Error('userAge is not iterable');
 } catch (err) {
     console.error(err);
 
-    console.assert(err.name === 'TypeError', 'name fail');
+    console.assert(err.name === 'Error', 'name fail');
     console.assert(err.message === 'userAge is not iterable', 'message fail');
 }

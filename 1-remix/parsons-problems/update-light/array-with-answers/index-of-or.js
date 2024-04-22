@@ -7,5 +7,5 @@ function updateLight(current) {
   return lights[lights.indexOf(current) + 1] || 'green';
 }
 
-return lights[lights.indexOf(current) + 1] && 'green'; // distractor
-return lights[lights.indexOf(current) + 1] ? 'green'; // distractor
+// return lights[lights.indexOf(current) + 1] && 'green'; // distractor
+// return lights[lights.indexOf(current) + 1] ? 'green'; // distractor

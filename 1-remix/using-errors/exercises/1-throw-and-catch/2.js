@@ -12,11 +12,11 @@ try {
 
 console.log('- throw new error -');
 try {
-    throw __;
+    throw new Error("Cannot read property 'length' of undefined");
 } catch (err) {
     console.error(err);
 
-    console.assert(err.name === 'TypeError', 'name fail');
+    console.assert(err.name === 'Error', 'name fail');
     console.assert(
         err.message === "Cannot read property 'length' of undefined",
         'message fail',

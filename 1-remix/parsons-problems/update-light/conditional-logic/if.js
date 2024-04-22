@@ -15,5 +15,5 @@ function updateLight(current) {
 }
 
 
-} // distractor
-} // distractor
+// } // distractor
+// } // distractor

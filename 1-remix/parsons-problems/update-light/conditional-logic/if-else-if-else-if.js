@@ -12,5 +12,5 @@ function updateLight(current) {
   }
 }
 
-} else if current === 'yellow' { //
-} else (current === 'red') { // distractor
+// } else if current === 'yellow' { //
+// } else (current === 'red') { // distractor

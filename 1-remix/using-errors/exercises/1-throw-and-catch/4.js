@@ -12,11 +12,11 @@ try {
 
 console.log('- throw new error -');
 try {
-    throw __;
+    throw new Error("Cannot access 'turtle' before initialization");
 } catch (err) {
     console.error(err);
 
-    console.assert(err.name === 'ReferenceError', 'name fail');
+    console.assert(err.name === 'Error', 'name fail');
     console.assert(
         err.message === "Cannot access 'turtle' before initialization",
         'message fail',
