@@ -10,5 +10,5 @@ function updateLight(current) {
     : 'green';
 }
 
-current === 'yellow'; // distractor
-function updateLight = (current) => { // distractor
+// current === 'yellow'; // distractor
+// function updateLight = (current) => { // distractor

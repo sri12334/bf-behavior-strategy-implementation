@@ -12,5 +12,5 @@ function updateLight(current) {
 }
 
 
-let updateLight(current) { // distractor
-let updateLight(current) = function { // distractor
+// let updateLight(current) { // distractor
+// let updateLight(current) = function { // distractor

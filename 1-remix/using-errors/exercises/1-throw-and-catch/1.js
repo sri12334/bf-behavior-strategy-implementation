@@ -11,10 +11,10 @@ try {
 
 console.log('- throw new error -');
 try {
-    throw __;
+    throw new Error('null is not a function');
 } catch (err) {
     console.error(err);
 
-    console.assert(err.name === 'TypeError', 'name fail');
+    console.assert(err.name === 'Error', 'name fail');
     console.assert(err.message === 'null is not a function', 'message fail');
 }

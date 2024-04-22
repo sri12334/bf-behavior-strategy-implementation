@@ -11,4 +11,4 @@ const updateLight = (current) => {
 };
 
 
-const updateLight = (current) => // distractor
+// const updateLight = (current) => // distractor

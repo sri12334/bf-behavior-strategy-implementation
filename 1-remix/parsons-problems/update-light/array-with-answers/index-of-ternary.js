@@ -8,4 +8,4 @@ function updateLight(current) {
     return newLightIndex < 3 ? lights[newLightIndex] : lights[0];
 }
 
-return newLightIndex < 3 ? lights[0] : lights[newLightIndex]; // distractor
+// return newLightIndex < 3 ? lights[0] : lights[newLightIndex]; // distractor

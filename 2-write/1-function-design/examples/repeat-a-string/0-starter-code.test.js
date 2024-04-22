@@ -24,15 +24,37 @@
  */
 
 // =============== your solutions will go here ===============
+function repeatString(text = '', repetitions = 1) {
+    if (typeof text !== 'string') {
+      throw new TypeError('text is not a string');
+    }
+    if (typeof repetitions !== 'number') {
+      throw new TypeError('repetitions is not a number');
+    }
+    if (repetitions < 0) {
+      throw new RangeError('repetitions is less than zero');
+    }
+    if (!Number.isInteger(repetitions)) {
+      throw new RangeError('repetitions is not an integer');
+    }
+    return text.repeat(repetitions);
+  }
 
 // =============== a for-of loop to control which solution(s) are tested ===============
 
 for (const solution of [secretSolution]) {
     // =============== test cases for this challenge ===============
 
-    describe(solution.name + ': _', () => {
-        describe('_', () => {
-            it('_', () => {});
+    describe(solution.name + ': Repeats a string a specific number of times', () => {
+        describe('With valid inputs', () => {
+            it('Repeats the string once if no repetitions are specified', () => {
+                const result = repeatString('hello');
+                expect(result).toEqual('hello');
+            });
+            it('Repeats the string the specified number of times', () => {
+                const result = repeatString('hello', 3);
+                expect(result).toEqual('hellohellohello');
+            });
         });
     });
 }

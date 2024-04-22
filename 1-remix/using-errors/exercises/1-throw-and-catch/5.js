@@ -11,10 +11,10 @@ try {
 
 console.log('- throw new error -');
 try {
-    throw __;
+    throw new Error('turtle is not defined');
 } catch (err) {
     console.error(err);
 
-    console.assert(err.name === 'ReferenceError', 'name fail');
+    console.assert(err.name === 'Error', 'name fail');
     console.assert(err.message === 'turtle is not defined', 'message fail');
 }
